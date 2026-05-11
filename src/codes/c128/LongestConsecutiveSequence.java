@@ -1,3 +1,5 @@
+package codes.c128;
+
 import java.util.HashSet;
 
 public class LongestConsecutiveSequence {
@@ -18,11 +20,6 @@ public class LongestConsecutiveSequence {
             }
         }
         return longestStreak;
-    }
-
-    public static void main(String[] args) {
-        int[] nums = {11, 666, 33, 7, 10, 48, 24, 12, 72, 22};
-        System.out.println(longestConsecutive(nums));
     }
 
 }

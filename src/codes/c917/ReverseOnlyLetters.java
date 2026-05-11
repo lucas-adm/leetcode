@@ -1,3 +1,5 @@
+package codes.c917;
+
 public class ReverseOnlyLetters {
 
     public static String reverseOnlyLetters(String s) {
@@ -16,11 +18,6 @@ public class ReverseOnlyLetters {
             }
         }
         return new String(chars);
-    }
-
-    public static void main(String[] args) {
-        String input = "a-bC-dEf-ghIj";
-        System.out.println(reverseOnlyLetters(input));
     }
 
 }

@@ -1,5 +1,6 @@
+package codes.c347;
+
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -24,13 +25,6 @@ public class TopKFrequentElements {
             }
         }
         return result;
-    }
-
-    public static void main(String[] args) {
-        int[] nums = {1, 1, 1, 2, 2, 3, 4, 4, 4, 4};
-        int k = 2;
-        System.out.printf("Elements: %s, Frequence: %s%n", Arrays.toString(nums), k);
-        System.out.printf("Top Frequence: %s", Arrays.toString(topKFrequentElements(nums, k)));
     }
 
 }

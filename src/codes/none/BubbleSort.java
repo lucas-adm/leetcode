@@ -1,8 +1,8 @@
-import java.util.Arrays;
+package codes.none;
 
 public class BubbleSort {
 
-    private static void bubbleSort(int[] numbers) {
+    public static void bubbleSort(int[] numbers) {
         int n = numbers.length;
         for (int i = 0; i < n - 1; i++) {
             boolean hasChanged = false;
@@ -16,13 +16,6 @@ public class BubbleSort {
             }
             if (!hasChanged) break;
         }
-    }
-
-    public static void main(String[] args) {
-        int[] numbers = {11, 666, 33, 7, 10, 48, 24, 12, 72, 22};
-        System.out.println("Unordered list: " + Arrays.toString(numbers));
-        bubbleSort(numbers);
-        System.out.println("Ordered list: " + Arrays.toString(numbers));
     }
 
 }
